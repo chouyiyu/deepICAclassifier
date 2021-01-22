@@ -27,5 +27,5 @@ option 3: compute the distance (similarity) between image1 and image2 in the emb
 ```
 python3 deepICAclassifier.py --mode dist --img1 /path/to/image1 --img2 /path/to/image2 --gpu 0 
 ```
-Input images must be in NIfTI format and registered to a common space (template provided as MNI_template.nii) with dimension 40x48x38 and voxel size 4mm^3. By default, deepICAclassifier will run on CPU mode, set the option --gpu to 0,1,2 .... for running on GPU mode. 
+Inputs are the Z-Score images computed by FSL melodic ICA software with dimension 40x48x38, voxel size 4mm^3 and registered to the TT_N27 space (template provided as TT_N27_dxyz4_brain.nii). By default, deepICAclassifier will run on CPU mode, set the option --gpu to 0,1,2 .... for running on GPU mode. 
 #
