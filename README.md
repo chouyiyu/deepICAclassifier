@@ -1,5 +1,5 @@
 # deepICAclassifier
-automatically classification of the components derived from ICA analysis of rsfMRI data as particular functional brain resting state networks. Currently, the available functional networks are Default Mode Network, Lateral Visual Network, Occipital Visual Network, Lateral Visual Network, Motor Network, Auditory Network, Cerebellum Network, Executive Network, Salience Network, Left Dorsal Attentation Network and Right Dorsal Attentation Network.
+automatically classification of the components derived from ICA analysis of rsfMRI data as particular functional brain resting state networks. Currently, the available functional networks are Default Mode Network, Medial Visual Network, Occipital Visual Network, Lateral Visual Network, Motor Network, Auditory Network, Cerebellum Network, Executive Network, Salience Network, Left Dorsal Attentation Network and Right Dorsal Attentation Network.
 ## Installation
 ```
 git clone https://github.com/chouyiyu/deepICAclassifier.git
