@@ -18,7 +18,7 @@ option 1: classify the ICA component as one of the funcational brain resting sta
 python3 deepICAclassifier.py --mode classify --img1 /path/to/3d_ica --gpu 0
 
 ```
-option 2: label the best-fit ICA components for each funcational brain resting state network for a 4D ICA input data. The output is the index (starting from 0) of the 4th dimension.
+option 2: label the best-fit ICA components for each funcational brain resting state network of a 4D ICA input data. The output is the index (starting from 0) of the 4th dimension.
 ```
 python3 deepICAclassifier.py --mode bestICA --img1 /path/to/4d_ica --gpu 0
 
